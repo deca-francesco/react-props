@@ -1,0 +1,71 @@
+/* #region common */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: lightgrey;
+}
+
+/* #endregion common */
+
+/* #region utilities */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+
+header {
+  padding: 1rem;
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* #endregion header */
+
+/* #region main */
+
+main {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2rem 0;
+  /* position: absolute;
+  bottom: 0; */
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+/* #endregion footer */

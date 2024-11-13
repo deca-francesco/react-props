@@ -1,0 +1,30 @@
+.post_card {
+    /* width: 600px; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    .top {
+        /* height: 400px; */
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .placeholder {
+            font-size: 3rem;
+            /* font-weight: 200; */
+        }
+    }
+
+    .bottom {
+        background-color: white;
+        padding: 1rem;
+
+        h3,
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+}
