@@ -11,6 +11,10 @@ body {
   background-color: lightgrey;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* #endregion common */
 
 /* #region utilities */
@@ -45,6 +49,7 @@ main {
   section {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 

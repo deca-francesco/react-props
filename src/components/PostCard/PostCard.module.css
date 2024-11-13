@@ -1,21 +1,20 @@
 .post_card {
-    /* width: 600px; */
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
+    margin-bottom: 4rem;
+    flex-shrink: 0;
+
 
     .top {
-        /* height: 400px; */
         background-color: grey;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        .placeholder {
-            font-size: 3rem;
-            /* font-weight: 200; */
-        }
+        .image {}
     }
 
     .bottom {
@@ -25,6 +24,24 @@
         h3,
         p {
             margin-bottom: 1rem;
+        }
+
+        .tags {}
+
+        .green {
+            color: green;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .yellow {
+            color: yellow;
         }
     }
 }
