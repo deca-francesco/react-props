@@ -28,20 +28,20 @@
 
         .tags {}
 
-        .green {
+        .html {
             color: green;
         }
 
-        .blue {
+        .css {
             color: blue;
         }
 
-        .red {
+        .js {
             color: red;
         }
 
-        .yellow {
-            color: yellow;
+        .php {
+            color: orange;
         }
     }
 }

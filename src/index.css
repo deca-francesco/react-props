@@ -46,11 +46,24 @@ main {
   margin-bottom: 5rem;
 
 
-  section {
+  .posts_section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  .tags_section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+
+
 }
 
 /* #endregion main */
